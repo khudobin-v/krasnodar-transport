@@ -16,7 +16,7 @@ export default function RootLayout({
 		<RecoilRoot>
 			<html lang="en">
 				<body
-					className={`${manrope.className} min-h-screen flex flex-col bg-zinc-100`}
+					className={`${manrope.className} min-h-screen flex flex-col bg-zinc-100 dark:bg-zinc-800 text-black dark:text-white`}
 				>
 					<div className="flex-shrink-0">
 						<Navbar />
