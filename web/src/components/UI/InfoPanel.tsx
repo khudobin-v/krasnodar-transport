@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { useRecoilValue } from "recoil";
 import { languageState } from "../../../store/languageStore";
 import { getTranslation } from "../../../utils/getTranslation";
+import Clock from "./Clock";
+import Calendar from "./Calendar";
 
 const InfoPanel = () => {
 	const currentHour = new Date().getHours();
@@ -26,10 +28,15 @@ const InfoPanel = () => {
 	const greetingPhrase = generateGreeting();
 
 	return (
-		<div className="flex h-full w-full bg-white dark:bg-zinc-900 rounded-lg p-4">
-			<h2 className="text-3xl font-bold text-orange-600 first-letter:uppercase">
+		<div className='flex flex-col h-full w-full bg-white dark:bg-zinc-900 rounded-lg p-4'>
+			<h2 className='text-3xl font-bold text-orange-600 first-letter:uppercase'>
 				{greetingPhrase}, {getTranslation("guest", currentLanguage)}{" "}
 			</h2>
+			<div className='flex text-orange-600 text-xl font-semibold'>
+				<Clock />
+				,&nbsp;
+				<Calendar />
+			</div>
 		</div>
 	);
 };

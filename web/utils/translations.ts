@@ -29,6 +29,82 @@ export const translations: Translations = {
 		ru: "добрый вечер",
 		en: "good evening",
 	},
+	january: {
+		ru: "января",
+		en: "January",
+	},
+	february: {
+		ru: "февраля",
+		en: "February",
+	},
+	march: {
+		ru: "марта",
+		en: "March",
+	},
+	april: {
+		ru: "апреля",
+		en: "April",
+	},
+	may: {
+		ru: "мая",
+		en: "May",
+	},
+	june: {
+		ru: "июня",
+		en: "June",
+	},
+	july: {
+		ru: "июля",
+		en: "July",
+	},
+	august: {
+		ru: "августа",
+		en: "August",
+	},
+	september: {
+		ru: "сентября",
+		en: "September",
+	},
+	october: {
+		ru: "октября",
+		en: "October",
+	},
+	november: {
+		ru: "ноября",
+		en: "November",
+	},
+	december: {
+		ru: "декабря",
+		en: "December",
+	},
+	monday: {
+		ru: "понедельник",
+		en: "Monday",
+	},
+	tuesday: {
+		ru: "вторник",
+		en: "Tuesday",
+	},
+	wednesday: {
+		ru: "среда",
+		en: "Wednesday",
+	},
+	thursday: {
+		ru: "четверг",
+		en: "Thursday",
+	},
+	friday: {
+		ru: "пятница",
+		en: "Friday",
+	},
+	sunday: {
+		ru: "суббота",
+		en: "Sunday",
+	},
+	saturday: {
+		ru: "воскресенье",
+		en: "Saturday",
+	},
 	aboutProjectFooter__developing: {
 		ru: "Данный веб-сервис разрабатывается",
 		en: "This web service is developed by",
