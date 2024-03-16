@@ -22,7 +22,7 @@ const LanguageSelector = () => {
 				</h3>
 				{languageMenuIsOpen && (
 					<div className="absolute top-12 right-0">
-						<ul className="p-2 bg-white dark:bg-zinc-900 rounded-xl shadow-xl text-black dark:text-white">
+						<ul className="px-2 p-1 bg-white dark:bg-zinc-900 rounded-xl shadow-xl text-black dark:text-white">
 							<li
 								className="hover:cursor-pointer hover:bg-zinc-50 dark:hover:bg-zinc-800 p-1 rounded-lg"
 								onClick={() => changeLanguage("ru")}
