@@ -9,10 +9,6 @@ export const translations: Translations = {
 		ru: "гость",
 		en: "guest",
 	},
-	year: {
-		ru: "год",
-		en: "year",
-	},
 	goodNight: {
 		ru: "доброй ночи",
 		en: "good night",
