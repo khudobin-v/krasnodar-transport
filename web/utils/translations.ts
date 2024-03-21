@@ -113,4 +113,20 @@ export const translations: Translations = {
 		ru: "Открытый исходный код проекта доступен на",
 		en: "The project is open source on",
 	},
+	login: {
+		ru: "Войти",
+		en: "Login",
+	},
+	tram: {
+		ru: "трамвай",
+		en: "tram",
+	},
+	trolleybus: {
+		ru: "троллейбус",
+		en: "trolleybus",
+	},
+	bus: {
+		ru: "автобус",
+		en: "bus",
+	},
 };
