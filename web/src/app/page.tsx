@@ -2,7 +2,6 @@
 
 import InfoPanel from "@/components/UI/InfoPanel";
 import TransportPanel from "@/components/UI/TransportPanel";
-import WeatherPanel from "@/components/UI/WeatherPanel";
 import { useRecoilValue } from "recoil";
 import { languageState } from "../../store/languageStore";
 import { getTranslation } from "../../utils/getTranslation";
@@ -17,9 +16,7 @@ const Home = () => {
 					<div className="col-span-1">
 						<InfoPanel />
 					</div>
-					<div className="col-span-1">
-						<WeatherPanel />
-					</div>
+					<div className="col-span-1"></div>
 					{/* <div className='col-span-3'>Что-то другое</div> */}
 				</div>
 			</div>
